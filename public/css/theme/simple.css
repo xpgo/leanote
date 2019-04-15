@@ -2485,7 +2485,7 @@ textarea#wmd-input {
   display: none;
 }
 #note.read-only #noteReadTop {
-  display: block;
+  display: none;
 }
 #note.read-only #infoToolbar,
 #note.read-only #mceToolbar,
