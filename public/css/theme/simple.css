@@ -1150,6 +1150,21 @@ a:hover {
 /**
  * markdown editor
  */
+/*------------------------------------*/
+/* Added by xp for simple mobile view-*/
+#mdEditor .navbar-default {
+  display: none;
+}
+#mdEditor #noteTitleDiv {
+  display: none;
+}
+#mdEditor .layout-wrapper-l3 {
+  position: initial !important;
+}
+#editor .read-only, #mdEditor {
+  position: initial !important;
+}
+/*------------------------------------*/
 #mdEditor {
   z-index: 1;
   background-color: #fff;
@@ -2472,7 +2487,7 @@ textarea#wmd-input {
   display: none;
 }
 #editor.read-only .info-toolbar {
-  display: block;
+  display: none;
 }
 #note.read-only #editor,
 #note.read-only #mdEditor {
